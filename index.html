@@ -3,84 +3,49 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Shop by Maï — Lingerie & Mode | Conakry</title>
+  <title>Shop by Maï | Lingerie & Mode à Conakry</title>
   <script src="https://cdn.tailwindcss.com"></script>
-  <style>
-    .lang-fr { display: block; } .lang-en { display: none; }
-    body.en .lang-fr { display: none; } body.en .lang-en { display: block; }
-  </style>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <style>body { font-family: 'Inter', system-ui, sans-serif; }</style>
 </head>
-<body class="bg-rose-50 text-slate-900 font-sans">
-  <div class="bg-amber-100 text-amber-900 text-center text-sm py-2 px-4 sticky top-0 z-50">
-    <span class="lang-fr">Maquette offerte par Al-Falah Marketing — rien n’est en ligne sous votre nom.</span>
-    <span class="lang-en">Complimentary mockup by Al-Falah Marketing — nothing is live under your name.</span>
+<body class="bg-rose-50 text-slate-800">
+  <div class="bg-amber-50 border-b border-amber-200 text-amber-900 text-center text-sm py-2 px-4">
+    Maquette gratuite par Al-Falah Marketing — rien n'est en ligne sous votre nom.
   </div>
-  <header class="bg-white/90 backdrop-blur sticky top-8 z-40 shadow-sm">
-    <div class="max-w-6xl mx-auto px-4 py-3 flex items-center justify-between">
-      <div class="font-bold text-xl text-rose-700">Shop by Maï</div>
-      <div class="flex items-center gap-4">
-        <button onclick="document.body.classList.toggle('en')" class="text-sm border rounded px-2 py-1">EN / FR</button>
-        <a href="https://wa.me/224610505478" class="bg-rose-600 text-white px-4 py-2 rounded-lg text-sm">WhatsApp</a>
-      </div>
+  <header class="sticky top-0 z-50 bg-white/90 backdrop-blur border-b">
+    <div class="max-w-5xl mx-auto px-4 py-3 flex items-center justify-between">
+      <div class="font-bold text-xl text-rose-900">Shop by Maï</div>
+      <a href="https://wa.me/224610505478" class="bg-rose-600 text-white px-4 py-2 rounded-full text-sm">WhatsApp</a>
     </div>
   </header>
-  <section class="relative h-96 bg-cover bg-center" style="background-image: url('https://images.unsplash.com/photo-1617137968427-85924c800a22?w=1200');">
-    <div class="absolute inset-0 bg-slate-900/50 flex items-center">
-      <div class="max-w-4xl mx-auto px-4 text-white text-center">
-        <h1 class="text-4xl md:text-5xl font-bold mb-4 lang-fr">Lingerie & Élégance</h1>
-        <h1 class="text-4xl md:text-5xl font-bold mb-4 lang-en">Lingerie & Elegance</h1>
-        <p class="text-lg mb-6 lang-fr">Nuisettes, vêtements, sacs et chaussures — Conakry</p>
-        <p class="text-lg mb-6 lang-en">Nightwear, clothing, bags and shoes — Conakry</p>
-        <a href="https://wa.me/224610505478" class="bg-rose-500 text-white px-8 py-3 rounded-xl font-semibold">Commander</a>
-      </div>
+  <section class="relative h-[65vh] bg-cover bg-center" style="background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('https://images.unsplash.com/photo-1594633312681-425c7b97ccd1?auto=format&fit=crop&w=1200&q=80');">
+    <div class="absolute inset-0 flex flex-col items-center justify-center text-center text-white px-4">
+      <h1 class="text-4xl font-bold mb-4">Élégance & Confiance</h1>
+      <p class="text-lg max-w-xl mb-6">Lingeries, nuisettes, vêtements et accessoires à Conakry.</p>
+      <a href="https://wa.me/224610505478?text=Bonjour%20Shop%20by%20Ma%C3%AF%2C%20je%20suis%20int%C3%A9ress%C3%A9e%20par%20vos%20articles" class="bg-rose-500 text-white px-6 py-3 rounded-full">Commander sur WhatsApp</a>
     </div>
   </section>
-  <div class="bg-slate-800 text-white text-xs py-2 text-center">Laurel MD · Coyah GN · Freetown SL — Al-Falah Marketing</div>
-  <section class="py-12 max-w-6xl mx-auto px-4">
-    <h2 class="text-3xl font-bold text-center mb-8 lang-fr">Collections</h2>
-    <h2 class="text-3xl font-bold text-center mb-8 lang-en">Collections</h2>
-    <div class="grid md:grid-cols-3 gap-6">
+  <section class="max-w-5xl mx-auto px-4 py-12">
+    <h2 class="text-3xl font-bold text-center mb-8">Collections</h2>
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
       <div class="bg-white rounded-2xl shadow overflow-hidden">
-        <img src="https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?w=600" class="h-48 w-full object-cover" alt="Lingerie">
-        <div class="p-4"><h3 class="font-bold">Lingerie</h3><p class="text-sm">Nuisettes & ensembles</p></div>
+        <img src="https://images.unsplash.com/photo-1617137968427-85924c800a22?auto=format&fit=crop&w=600&q=80" class="w-full h-48 object-cover">
+        <div class="p-4"><h3 class="font-semibold">Lingeries</h3></div>
       </div>
       <div class="bg-white rounded-2xl shadow overflow-hidden">
-        <img src="https://images.unsplash.com/photo-1441986300917-64674bd600d8?w=600" class="h-48 w-full object-cover" alt="Mode">
-        <div class="p-4"><h3 class="font-bold">Mode</h3><p class="text-sm">Vêtements tendance</p></div>
+        <img src="https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?auto=format&fit=crop&w=600&q=80" class="w-full h-48 object-cover">
+        <div class="p-4"><h3 class="font-semibold">Nuisettes</h3></div>
       </div>
       <div class="bg-white rounded-2xl shadow overflow-hidden">
-        <img src="https://images.unsplash.com/photo-1553062407-98eeb64c6a62?w=600" class="h-48 w-full object-cover" alt="Accessoires">
-        <div class="p-4"><h3 class="font-bold">Accessoires</h3><p class="text-sm">Sacs & chaussures</p></div>
+        <img src="https://images.unsplash.com/photo-1483985988355-763728e1935b?auto=format&fit=crop&w=600&q=80" class="w-full h-48 object-cover">
+        <div class="p-4"><h3 class="font-semibold">Mode</h3></div>
       </div>
     </div>
   </section>
-  <section class="py-12 bg-white">
-    <div class="max-w-6xl mx-auto px-4">
-      <h2 class="text-3xl font-bold text-center mb-8">Galerie</h2>
-      <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
-        <img src="https://images.unsplash.com/photo-1617137968427-85924c800a22?w=400" class="rounded-xl h-40 object-cover">
-        <img src="https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?w=400" class="rounded-xl h-40 object-cover">
-        <img src="https://images.unsplash.com/photo-1441986300917-64674bd600d8?w=400" class="rounded-xl h-40 object-cover">
-        <img src="https://images.unsplash.com/photo-1553062407-98eeb64c6a62?w=400" class="rounded-xl h-40 object-cover">
-      </div>
-    </div>
-  </section>
-  <section class="py-12 max-w-2xl mx-auto px-4 text-center">
-    <h2 class="text-2xl font-bold mb-4">Contact</h2>
-    <p class="mb-4"><a href="tel:+224610505478" class="text-rose-600 font-semibold">+224 610 50 54 78</a></p>
-    <a href="https://wa.me/224610505478" class="inline-block bg-green-500 text-white px-8 py-3 rounded-xl font-bold">WhatsApp</a>
-  </section>
-  <footer class="bg-slate-900 text-slate-300 py-8 text-sm">
-    <div class="max-w-6xl mx-auto px-4 text-center">
-      <p>Shop by Maï · Conakry, Guinée</p>
-      <p class="mt-2">Maquette offerte par <strong>Al-Falah Marketing</strong> · Laurel, MD · Coyah · Freetown<br>
-      <a href="https://al-falahmarketing.com" class="text-rose-400">al-falahmarketing.com</a></p>
-      <p class="mt-4 text-xs">© 2026 · Rien n’est publié sous votre nom.</p>
-    </div>
+  <footer class="bg-slate-900 text-slate-300 py-8 text-sm text-center">
+    <p>Maquette de démonstration par <strong>Al-Falah Marketing</strong></p>
+    <p>Laurel, MD • Coyah • Freetown | info@al-falahmarketing.com</p>
+    <p class="text-xs mt-2 opacity-70">Contactez +224 610 50 54 78 pour personnaliser.</p>
   </footer>
-  <div class="fixed bottom-0 left-0 right-0 bg-white border-t flex md:hidden">
-    <a href="tel:+224610505478" class="flex-1 py-3 text-center font-semibold">Appeler</a>
-    <a href="https://wa.me/224610505478" class="flex-1 py-3 text-center bg-rose-600 text-white font-semibold">WhatsApp</a>
-  </div>
 </body>
 </html>
